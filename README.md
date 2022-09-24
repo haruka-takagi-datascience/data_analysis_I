@@ -36,7 +36,7 @@ INSERT IMAGE
 
 7. Run an initial multi-linear regression to identify leverage and influential points.
 
-INSERT IMAGE
+![](https://github.com/haruka-takagi-datascience/data_analysis_I/blob/main/images/img_1.png)
 
 The first line in the output above shows leverage values of the data points to their corresponding ID’s. The second line shows Cook’s distance. As we can see observation 109 has both the highest leverage value and Cook’s distance. Thus, we will remove this point from the dataset, as it may be a bad leverage point.
 
