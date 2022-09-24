@@ -1,6 +1,6 @@
 ---
 title: "Housing Sale Price Analysis with MLR"
-author: "Haruka Takagi, ID 1005053022"
+author: "Haruka Takagi"
 date: "December 1, 2020"
 output:
   html_document:
