@@ -23,9 +23,9 @@ Our main objectives for this data analysis report is…
 3. Execute model creation, such as but not limited to, creation of full model and applications of backwards AIC & BIC.
 4. Discuss model validity and limitations, such as but not limited to, examination of diagnostic plots and next steps.
 
-### Data Preprocessing
+## Data Preprocessing
 Before we start working with our data, we will do some standard procedures for data pre-processing.
-1. Set seed to 2020
+1. Set seed to 2020.
 2. Randomly select a sample of 150 cases from the original data.
 3. Create a new variable lotsize by multiplying lotwidth and lotlength. Lotsize will replace lotwidth and lotlength in the dataset.
 4. Remove unnecessary variables from the dataset.
