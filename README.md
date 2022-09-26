@@ -143,4 +143,4 @@ Finally, the last next step I would execute would be some penalized linear regre
 
 All this considered, before any next steps should be taken, we would need to determine the aim of the final model and what it is trying to achieve. From there we can determine whether we want to place importance on minimizing AIC/BIC values, minimizing adjusted R squared, minimize computation time for a good enough model, or if we want to prioritize inference over predictability.
 
-This concludes the data analysis report.
+This concludes the data analysis report. Thank you for reading!
