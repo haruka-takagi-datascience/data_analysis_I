@@ -101,9 +101,9 @@ Let us compare the full model to the Backwards AIC model. Firstly, both the full
 
 We would also like to execute the model using Backward BIC. The output is shown below…
 
-<img src="images/img_13.png" width="80%" height="80%">
+<img src="images/img_13.png" width="60%" height="60%">
 <img src="images/img_14.png" width="60%" height="60%">
-<img src="images/img_15.png" width="50%" height="50%">
+<img src="images/img_15.png" width="60%" height="60%">
 
 Below is the final fitted model from Backwards BIC. <br /> 
 <img src="images/img_16.png" width="50%" height="50%">
