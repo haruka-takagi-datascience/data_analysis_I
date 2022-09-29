@@ -91,8 +91,8 @@ When the location is T (Toronto Neighborhood) as opposed to location is M (Missi
 We would now like to compare the full model above with a model created using backwards elimination with AIC.
 
 <img src="images/img_9.png" width="65%" height="65%">
-<img src="images/img_10.png" width="65%" height="65%">
-<img src="images/img_11.png" width="70%" height="70%">
+<img src="images/img_10.png" width="75%" height="75%">
+<img src="images/img_11.png" width="75%" height="75%">
 
 Below is the final fitted model from Backwards AIC.
 <img src="images/img_12.png" width="80%" height="80%">
