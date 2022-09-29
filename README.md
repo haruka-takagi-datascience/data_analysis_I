@@ -102,11 +102,11 @@ Let us compare the full model to the Backwards AIC model. Firstly, both the full
 We would also like to execute the model using Backward BIC. The output is shown below…
 
 <img src="images/img_13.png" width="80%" height="80%">
-<img src="images/img_14.png" width="80%" height="80%">
-<img src="images/img_15.png" width="80%" height="80%">
+<img src="images/img_14.png" width="60%" height="60%">
+<img src="images/img_15.png" width="50%" height="50%">
 
 Below is the final fitted model from Backwards BIC.
-<img src="images/img_16.png" width="80%" height="80%">
+<img src="images/img_16.png" width="50%" height="50%">
 
 Let us compare the new Backward BIC model to the Backward AIC and the full model. Firstly, both the full model, Backward AIC and the Backward BIC modelhave statistically significance F test results, indicative from the very small p-values (2.2e-16). In the Backward BIC model we only take into account 3 predictor variables; list, taxes and locationT. This means in comparison to our Backward AIC model, we have dropped the variables bedroom and parking. While the Backward AIC and the full model showed the same significance levels for the predictor variables, in the Backward BIC model, the significance level for the list and taxes variable remains at 0%, however the location T variables increased in significance level from 0.1% to 0%, becoming significant for a confidence interval. In the Backwards BIC the intercept is also now newly statistically significant at a level of 0.1%, this was not seen in the full model or the Backward AIC model.
 
@@ -119,7 +119,7 @@ The decision on which model is the best is still unclear, and also depends on th
 In this section we will discuss the validity of the models created in the section above, and run some diagnostics.
 Here we output some of the diagnostic plots for the model we obtained in Section III Part III, which is the Backward BIC model.
 
-<img src="images/img_17.png" width="80%" height="80%">
+<img src="images/img_17.png" width="70%" height="70%">
 
 Let us examine the four diagnostic plots outputted above to see whether our MLR assumptions are satisfied.
 
