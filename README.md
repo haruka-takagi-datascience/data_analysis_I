@@ -44,9 +44,9 @@ The first line in the output above shows leverage values of the data points to t
 
 Let us examine the pairwise correlations and scatterplot matrix for all pairs of quantative variables in the data.
 
-<img src="images/img_3.png" width="80%" height="80%">
+<img src="images/img_3.png" width="70%" height="70%">
 
-<img src="images/img_4.png" width="80%" height="80%">
+<img src="images/img_4.png" width="85%" height="85%">
 
 Using the output above, we can describe how each quantitative predictor for sale price rank, in terms of their correlation coefficient from highest to lowest.
 
