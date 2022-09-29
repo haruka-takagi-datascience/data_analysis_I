@@ -46,7 +46,7 @@ Let us examine the pairwise correlations and scatterplot matrix for all pairs of
 
 <img src="images/img_3.png" width="70%" height="70%">
 
-<img src="images/img_4.png" width="85%" height="85%">
+<img src="images/img_4.png" width="90%" height="90%">
 
 Using the output above, we can describe how each quantitative predictor for sale price rank, in terms of their correlation coefficient from highest to lowest.
 
@@ -61,7 +61,7 @@ Looking at the pairwise correlations we can check for multicollinearity between 
 
 To confirm this we will produce some vif values, using a threshold of 5 to check for multicollinearity.
 
-<img src="images/img_5.png" width="80%" height="80%">
+<img src="images/img_5.png" width="90%" height="90%">
 
 Since none of the variables have a VIF of over 5, we can conclude that multicollinearity is not an issue with this dataset.
 
