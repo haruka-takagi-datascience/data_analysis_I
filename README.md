@@ -32,7 +32,7 @@ Before we start working with our data, we will do some standard procedures for d
 5. Remove NA values.
 6. Remove bad leverage points from the dataset.
 
-<img src="images/img_1.png" width="70%" height="70%">
+<img src="images/img_1.png" width="80%" height="80%">
 
 7. Run an initial multi-linear regression to identify leverage and influential points.
 
