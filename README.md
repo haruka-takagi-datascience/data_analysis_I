@@ -67,8 +67,8 @@ Since none of the variables have a VIF of over 5, we can conclude that multicoll
 
 Our scatter plot matrix can give us an idea of which variables to look out for that violate their constant variance assumption. From our output above, we can see that for the scatter plot of sale price and parking, the plots are in the shape of a fan. This shows that as parking numbers increase, there is large variability in the change in sale price. Leading us to think that sales ~ parking will not satisfy the constant variance assumption. We will confirm our observation by examing the diagnostic plots.
 
-<img src="images/img_6.png" width="80%" height="80%">
-<img src="images/img_7.png" width="80%" height="80%">
+<img src="images/img_6.png" width="60%" height="60%">
+<img src="images/img_7.png" width="60%" height="60%">
 
 Let us bring out attention to the Scale-Location plot, this plot shows the squared standardized residuals. As we can see it is not a straight line. This shows that the constant variance assumption is not satisfied, confirming our inkling from the scatter plot observations, that sale~price SLR model doesn’t satisfy the constant variance assumption.
 
@@ -76,7 +76,7 @@ Let us bring out attention to the Scale-Location plot, this plot shows the squar
 
 First we will fit an additive linear regression model with all the available predictor variables for sale price. For our analysis we will be using a benchmark significance level of 5%.
 
-<img src="images/img_8.png" width="80%" height="80%">
+<img src="images/img_8.png" width="70%" height="70%">
 
 From looking a the output above, we can see that the predictors that are significant in the full model are, list, bedroom, taxes and locationT. We will interpret the coefficients of the predictor variable that are significant in the model.
 
