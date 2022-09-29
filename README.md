@@ -92,7 +92,7 @@ We would now like to compare the full model above with a model created using bac
 
 <img src="images/img_9.png" width="65%" height="65%">
 <img src="images/img_10.png" width="75%" height="75%">
-<img src="images/img_11.png" width="75%" height="75%">
+<img src="images/img_11.png" width="80%" height="80%">
 
 Below is the final fitted model from Backwards AIC.
 <img src="images/img_12.png" width="80%" height="80%">
