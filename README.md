@@ -61,7 +61,7 @@ Looking at the pairwise correlations we can check for multicollinearity between 
 
 To confirm this we will produce some vif values, using a threshold of 5 to check for multicollinearity.
 
-<img src="images/img_5.png" width="100%" height="100%">
+<img src="images/img_5.png" width="95%" height="95%">
 
 Since none of the variables have a VIF of over 5, we can conclude that multicollinearity is not an issue with this dataset.
 
