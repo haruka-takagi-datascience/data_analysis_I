@@ -36,7 +36,7 @@ Before we start working with our data, we will do some standard procedures for d
 
 7. Run an initial multi-linear regression to identify leverage and influential points.
 
-<img src="images/img_2.png">
+<img src="images/img_2.png" width="80%" height="80%">
 
 The first line in the output above shows leverage values of the data points to their corresponding ID’s. The second line shows Cook’s distance. As we can see observation 109 has both the highest leverage value and Cook’s distance. Thus, we will remove this point from the dataset, as it may be a bad leverage point. We have now cleaned our dataset. We will use this as our sample moving forward in our analysis. 
 
@@ -44,9 +44,9 @@ The first line in the output above shows leverage values of the data points to t
 
 Let us examine the pairwise correlations and scatterplot matrix for all pairs of quantative variables in the data.
 
-<img src="images/img_3.png">
+<img src="images/img_3.png" width="80%" height="80%">
 
-<img src="images/img_4.png">
+<img src="images/img_4.png" width="80%" height="80%">
 
 Using the output above, we can describe how each quantitative predictor for sale price rank, in terms of their correlation coefficient from highest to lowest.
 
@@ -61,14 +61,14 @@ Looking at the pairwise correlations we can check for multicollinearity between 
 
 To confirm this we will produce some vif values, using a threshold of 5 to check for multicollinearity.
 
-<img src="images/img_5.png">
+<img src="images/img_5.png" width="80%" height="80%">
 
 Since none of the variables have a VIF of over 5, we can conclude that multicollinearity is not an issue with this dataset.
 
 Our scatter plot matrix can give us an idea of which variables to look out for that violate their constant variance assumption. From our output above, we can see that for the scatter plot of sale price and parking, the plots are in the shape of a fan. This shows that as parking numbers increase, there is large variability in the change in sale price. Leading us to think that sales ~ parking will not satisfy the constant variance assumption. We will confirm our observation by examing the diagnostic plots.
 
-<img src="images/img_6.png">
-<img src="images/img_7.png">
+<img src="images/img_6.png" width="80%" height="80%">
+<img src="images/img_7.png" width="80%" height="80%">
 
 Let us bring out attention to the Scale-Location plot, this plot shows the squared standardized residuals. As we can see it is not a straight line. This shows that the constant variance assumption is not satisfied, confirming our inkling from the scatter plot observations, that sale~price SLR model doesn’t satisfy the constant variance assumption.
 
@@ -76,7 +76,7 @@ Let us bring out attention to the Scale-Location plot, this plot shows the squar
 
 First we will fit an additive linear regression model with all the available predictor variables for sale price. For our analysis we will be using a benchmark significance level of 5%.
 
-<img src="images/img_8.png">
+<img src="images/img_8.png" width="80%" height="80%">
 
 From looking a the output above, we can see that the predictors that are significant in the full model are, list, bedroom, taxes and locationT. We will interpret the coefficients of the predictor variable that are significant in the model.
 
@@ -90,23 +90,23 @@ When the location is T (Toronto Neighborhood) as opposed to location is M (Missi
 
 We would now like to compare the full model above with a model created using backwards elimination with AIC.
 
-<img src="images/img_9.png">
-<img src="images/img_10.png">
-<img src="images/img_11.png">
+<img src="images/img_9.png" width="80%" height="80%">
+<img src="images/img_10.png" width="80%" height="80%">
+<img src="images/img_11.png" width="80%" height="80%">
 
 Below is the final fitted model from Backwards AIC.
-<img src="images/img_12.png">
+<img src="images/img_12.png" width="80%" height="80%">
 
 Let us compare the full model to the Backwards AIC model. Firstly, both the full model and the Backward AIC have statistically significance F test results, indicative from the very small p-values (2.2e-16). In the final Backwards AIC model there model does not include the lotsize variable. Even though the Backwards AIC model has less predictor variables, the adjusted R squared is 0.9791, which is higher than the adjusted R squared of the full model, which is 0.9788. The significance levels for the variables have not changed between the full model and the Backwards AIC. The list variable is still significant to 0%, bedroom variable is still significant to 1%, taxes variable is still significant to 0% and the locationT variable is still significant to 0.1%. The coefficients and intercepts did not change very much when comparing the full model and the Backward AIC model. From these results, it seems that we should omit the lotsize variable from our MLR model, since our adjusted R squared is better without taking it into consideration.
 
 We would also like to execute the model using Backward BIC. The output is shown below…
 
-<img src="images/img_13.png">
-<img src="images/img_14.png">
-<img src="images/img_15.png">
+<img src="images/img_13.png" width="80%" height="80%">
+<img src="images/img_14.png" width="80%" height="80%">
+<img src="images/img_15.png" width="80%" height="80%">
 
 Below is the final fitted model from Backwards BIC.
-<img src="images/img_16.png">
+<img src="images/img_16.png" width="80%" height="80%">
 
 Let us compare the new Backward BIC model to the Backward AIC and the full model. Firstly, both the full model, Backward AIC and the Backward BIC modelhave statistically significance F test results, indicative from the very small p-values (2.2e-16). In the Backward BIC model we only take into account 3 predictor variables; list, taxes and locationT. This means in comparison to our Backward AIC model, we have dropped the variables bedroom and parking. While the Backward AIC and the full model showed the same significance levels for the predictor variables, in the Backward BIC model, the significance level for the list and taxes variable remains at 0%, however the location T variables increased in significance level from 0.1% to 0%, becoming significant for a confidence interval. In the Backwards BIC the intercept is also now newly statistically significant at a level of 0.1%, this was not seen in the full model or the Backward AIC model.
 
@@ -119,7 +119,7 @@ The decision on which model is the best is still unclear, and also depends on th
 In this section we will discuss the validity of the models created in the section above, and run some diagnostics.
 Here we output some of the diagnostic plots for the model we obtained in Section III Part III, which is the Backward BIC model.
 
-<img src="images/img_17.png">
+<img src="images/img_17.png" width="80%" height="80%">
 
 Let us examine the four diagnostic plots outputted above to see whether our MLR assumptions are satisfied.
 
