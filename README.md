@@ -112,7 +112,7 @@ Let us compare the new Backward BIC model to the Backward AIC and the full model
 
 Comparing the adjusted R squared values across the models, it is as follows, Backwards BIC < full model < Backwards AIC; 0.9785 < 0.9788 < 0.9791. Our Backwards AIC model has the highest adjusted R squared value, while our Backwards AIC model has the lowest adjusted R squared value. This makes sense since the Backwards BIC model only takes into account 3 predictor variables, while the Backwards AIC model takes into account 5 predictor variables. When looking at the estimated coefficient values across our models, the same predictor variables have similar coefficient values across the models. It is noteworthy to point out that the estimated intercept in the Backwards BIC model increased from 19660 < 23510 < 74400; full model < Backwards AIC < Backwards BIC. The reason why the Backwards AIC and Backwards BIC models are not the same is because the BIC model penalizes free parameters more strongly.
 
-The decision on which model is the best is still unclear, and also depends on the usage of the intended model. If we are working with big data and computation time is a concern, we may opt for the Backward BIC model that takes into account only 3 predictor variables. IF we want to maximize our adjusted R squared, we would probably opt for the Backward AIC model.
+The decision on which model is the best is still unclear, and also depends on the usage of the intended model. If we are working with big data and computation time is a concern, we may opt for the Backward BIC model that takes into account only 3 predictor variables. If we want to maximize our adjusted R squared, we would probably opt for the Backward AIC model.
 
 ## Discussions & Limitations
 
