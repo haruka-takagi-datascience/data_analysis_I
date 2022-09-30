@@ -3,17 +3,17 @@
 The data that this report will be exploring was obtained from the Toronto Real Estate Board (TREB) on detached houses in two separate neighborhoods (a neighborhood in Toronto: neighborhood T) & (a neighborhood in Mississauga: neighborhood M). 
 
 This data set contains the information of the following variables.
-ID: property identification
-sale: the actual sale price of the property in Canadian dollars
-list: the last list price of the property in Canadian dollars
-bedroom: the total number of bedrooms
-bathroom: the number of bathrooms
-parking: the total number of parking spots
-maxsqfoot: the maximum square footage of the property
-taxes: previous year’s property tax
-lotwidth: the frontage in feet
-lotlength: the length in feet of one side of the property
-location: M (for Mississauga), T (for Toronto)
+- ID: property identification
+- sale: the actual sale price of the property in Canadian dollars
+- list: the last list price of the property in Canadian dollars
+- bedroom: the total number of bedrooms
+- bathroom: the number of bathrooms
+- parking: the total number of parking spots
+- maxsqfoot: the maximum square footage of the property
+- taxes: previous year’s property tax
+- lotwidth: the frontage in feet
+- lotlength: the length in feet of one side of the property
+- location: M (for Mississauga), T (for Toronto)
 
 We will use this data to establish a mulitple linear regression model (MLR) which home buyers can use to predict the sale price of single-family, detached homes in the two neighborhoods in the Greater Toronto Area.
 
